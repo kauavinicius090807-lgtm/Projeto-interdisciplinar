@@ -58,9 +58,13 @@ Os documentos utilizados durante o desenvolvimento do projeto estão disponívei
 ## 👥 Equipe
 
 Enzo
+
 Kaua Vinícius
+
 João Pedro
+
 Matheus
+
 Mauro
 
 ### 📌 Status
