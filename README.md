@@ -8,7 +8,7 @@ A proposta é transformar esse processo em um **sistema digital**, facilitando o
 
 ## Como funcionará
 
-O aluno apresenta sua identificação e informa qual livro deseja emprestar. O atendente consulta o aluno e o livro no sistema e registra o empréstimo.
+O aluno apresenta sua identificação e informa qual livro deseja pegar emprestado. O atendente consulta o aluno e o livro no sistema e registra o empréstimo.
 
 Após o registro, o sistema **define automaticamente a data de devolução** e permite acompanhar quais livros estão:
 
