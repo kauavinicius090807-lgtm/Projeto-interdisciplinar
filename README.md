@@ -52,7 +52,7 @@ O projeto busca:
 
 Os documentos utilizados durante o desenvolvimento do projeto estão disponíveis neste repositório.
 
-- [Escopo do projeto](./Escopo.docx)
+- [Documentação do projeto](./Escopo.docx)
 - [Diagrama BPMN](./BPMN.jpg)
 
 ## 👥 Equipe
