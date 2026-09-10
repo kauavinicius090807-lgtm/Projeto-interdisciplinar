@@ -34,7 +34,7 @@ Quando os livros chegam, eles são recebidos, conferidos, classificados e catalo
 
 O processo completo pode ser visualizado no diagrama BPMN abaixo:
 
-![Diagrama BPMN](./BPMN.jpg)
+![Diagrama BPMN](./BPMN.jpeg)
 
 ## 🎯 Objetivos
 
@@ -53,7 +53,7 @@ O projeto busca:
 Os documentos utilizados durante o desenvolvimento do projeto estão disponíveis neste repositório.
 
 - [Documentação do projeto](./Escopo.docx)
-- [Diagrama BPMN](./BPMN.jpg)
+- [Diagrama BPMN](./BPMN.jpeg)
 
 ## 👥 Equipe
 
