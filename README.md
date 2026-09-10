@@ -57,15 +57,15 @@ Os documentos utilizados durante o desenvolvimento do projeto estão disponívei
 
 ## 👥 Equipe
 
-Enzo
+Enzo Alexandrino
 
-Kaua Vinícius
+Kauã Vinícius
 
 João Pedro
 
-Matheus
+Matheus Duque
 
-Mauro
+Mauro Sena
 
 ### 📌 Status
 
