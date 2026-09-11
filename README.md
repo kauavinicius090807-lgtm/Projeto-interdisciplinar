@@ -4,6 +4,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge&logo=git&logoColor=white" alt="Status do Projeto">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Escola-S%C3%A3o%20Bernardo-blue?style=for-the-badge" alt="Instituição">
 </p>
 
@@ -13,7 +14,7 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## 📖 Sobre O Projeto
 
 <details>
 <summary><b>Clique para expandir os detalhes do objetivo do projeto</b></summary>
@@ -21,7 +22,7 @@
 
 Este projeto tem como objetivo principal mapear, organizar e modernizar o fluxo de gerenciamento da biblioteca da **Escola São Bernardo (ESB)**, com foco especial no atendimento aos alunos dos cursos técnicos de **Enfermagem** e **Farmácia**.
 
-Atualmente, grande parte das etapas operacionais é realizada de forma manual. Diante disso, a proposta visa analisar o funcionamento atual, identificar gargalos e desenhar processos mais claros, ágeis e rastreáveis por meio de modelagem de processos (BPMN) e documentação estruturada.
+Atualmente, grande parte das etapas operacionais é realizada de forma manual. Diante disso, a proposta visa analisar o funcionamento atual, identificar gargalos e desenhar processos mais claros, ágeis e rastreáveis por meio de modelagem de processos (BPMN), programação em Python e documentação estruturada.
 
 </details>
 
@@ -29,8 +30,9 @@ Atualmente, grande parte das etapas operacionais é realizada de forma manual. D
 
 ## ⚙️ Tecnologias e Ferramentas Utilizadas
 
-As seguintes ferramentas e abordagens foram empregadas no desenvolvimento da documentação e modelagem:
+As seguintes ferramentas e abordagens foram empregadas no desenvolvimento do projeto:
 
+* **Linguagem:** Python (Ainda não utilizado)
 * **Modelagem de Processos:** BPMN (Business Process Model and Notation)
 * **Documentação:** Microsoft Word / Markdown
 * **Controle de Versão:** Git e GitHub
