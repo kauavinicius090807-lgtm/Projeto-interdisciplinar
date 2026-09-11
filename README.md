@@ -4,7 +4,6 @@
 
 [![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge&logo=git&logoColor=white)]()
 [![Instituição](https://img.shields.io/badge/Escola-S%C3%A3o%20Bernardo-blue?style=for-the-badge)]()
-[![Licença](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)]()
 
 **Sistema desenvolvido para planejar, organizar e otimizar os processos de empréstimo, devolução e incorporação de novos livros na biblioteca da Escola São Bernardo (ESB).**
 
