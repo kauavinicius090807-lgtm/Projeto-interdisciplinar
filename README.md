@@ -104,11 +104,11 @@ Todos os artefatos desenvolvidos durante o projeto estão centralizados neste re
 
 | Integrante | Função / Contribuição |
 | :--- | :--- |
-| **Enzo Alexandrino** | Desenvolvedor / Analista |
-| **Kauã Vinícius** | Desenvolvedor / Analista |
-| **João Pedro** | Desenvolvedor / Analista |
-| **Matheus Duque** | Desenvolvedor / Analista |
-| **Mauro Sena** | Desenvolvedor / Analista |
+| **Enzo Alexandrino** | Desenvolvedor / Representante Comercial |
+| **Kauã Vinícius** | Desenvolvedor / Scrum Master |
+| **João Pedro** | Desenvolvedor / Analista Técnico |
+| **Matheus Duque** | Desenvolvedor / Analista Técnico |
+| **Mauro Sena** | Desenvolvedor / Designer |
 
 ---
 
