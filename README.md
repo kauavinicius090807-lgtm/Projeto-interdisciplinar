@@ -2,8 +2,11 @@
 
 # 📚 Sistema de Gerenciamento de Biblioteca - ESB
 
-[![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge&logo=git&logoColor=white)]()
-[![Instituição](https://img.shields.io/badge/Escola-S%C3%A3o%20Bernardo-blue?style=for-the-badge)]()
+<p>
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge&logo=git&logoColor=white" alt="Status do Projeto">
+  <img src="https://img.shields.io/badge/Escola-S%C3%A3o%20Bernardo-blue?style=for-the-badge" alt="Instituição">
+  <img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" alt="Licença">
+</p>
 
 **Sistema desenvolvido para planejar, organizar e otimizar os processos de empréstimo, devolução e incorporação de novos livros na biblioteca da Escola São Bernardo (ESB).**
 
@@ -13,9 +16,15 @@
 
 ## 📖 Sobre o Projeto
 
+<details>
+<summary><b>Clique para expandir os detalhes do objetivo do projeto</b></summary>
+<br>
+
 Este projeto tem como objetivo principal mapear, organizar e modernizar o fluxo de gerenciamento da biblioteca da **Escola São Bernardo (ESB)**, com foco especial no atendimento aos alunos dos cursos técnicos de **Enfermagem** e **Farmácia**.
 
 Atualmente, grande parte das etapas operacionais é realizada de forma manual. Diante disso, a proposta visa analisar o funcionamento atual, identificar gargalos e desenhar processos mais claros, ágeis e rastreáveis por meio de modelagem de processos (BPMN) e documentação estruturada.
+
+</details>
 
 ---
 
@@ -34,6 +43,8 @@ As seguintes ferramentas e abordagens foram empregadas no desenvolvimento da doc
 O fluxo operacional do sistema divide-se em três grandes pilares: **Empréstimo**, **Devolução** e **Entrada de Novos Livros**.
 
 ### 📚 1. Empréstimo de Livros
+<div style="background-color: #f6f8fa; padding: 15px; border-radius: 6px; border: 1px solid #d0d7de;">
+
 O fluxo de retirada ocorre nas seguintes etapas:
 1. O aluno pesquisa e localiza o livro desejado na biblioteca.
 2. A equipe realiza a verificação da regularidade da matrícula do aluno.
@@ -41,7 +52,11 @@ O fluxo de retirada ocorre nas seguintes etapas:
 4. O atendente valida a integridade e disponibilidade do livro.
 5. O empréstimo é efetivado no sistema/controle e o comprovante é entregue ao aluno.
 
+</div>
+
 ### ⏰ 2. Devolução de Livros
+<div style="background-color: #f6f8fa; padding: 15px; border-radius: 6px; border: 1px solid #d0d7de;">
+
 * **Prazo padrão:** 7 dias corridos.
 * **Prorrogações:** É permitida a renovação por até **3 vezes**, caso não haja reservas pendentes.
 * **Fluxo de devolução:**
@@ -51,9 +66,13 @@ O fluxo de retirada ocorre nas seguintes etapas:
   * 💰 **Multas:** Em caso de atraso, o valor correspondente é calculado.
   * 📚 **Retorno ao estoque:** Após a conferência final, o livro é disponibilizado novamente para empréstimo.
 
+</div>
+
 ---
 
 ## 📦 Entrada de Novos Livros (Doações)
+
+<div style="background-color: #f6f8fa; padding: 15px; border-radius: 6px; border: 1px solid #d0d7de;">
 
 O fluxo também contempla a ampliação do acervo por meio de doações (parcerias com editoras ou doadores):
 
@@ -64,6 +83,8 @@ O fluxo também contempla a ampliação do acervo por meio de doações (parceri
 5. 📦 Separação, embalagem e emissão da nota de doação.
 6. 🚚 Envio, recebimento e conferência física na biblioteca.
 7. 📚 Classificação, catalogação definitiva, etiquetagem e entrada oficial no estoque.
+
+</div>
 
 ---
 
@@ -103,11 +124,11 @@ Todos os artefatos desenvolvidos durante o projeto estão centralizados neste re
 
 | Integrante | Função / Contribuição |
 | :--- | :--- |
-| **Enzo Alexandrino** | Desenvolvedor / Representante Comercial |
-| **Kauã Vinícius** | Desenvolvedor / Scrum Master |
-| **João Pedro** | Desenvolvedor / Analista Técnico |
-| **Matheus Duque** | Desenvolvedor / Analista Técnico |
-| **Mauro Sena** | Desenvolvedor / Designer |
+| **Enzo Alexandrino** | Desenvolvedor / Analista |
+| **Kauã Vinícius** | Desenvolvedor / Analista |
+| **João Pedro** | Desenvolvedor / Analista |
+| **Matheus Duque** | Desenvolvedor / Analista |
+| **Mauro Sena** | Desenvolvedor / Analista |
 
 ---
 
