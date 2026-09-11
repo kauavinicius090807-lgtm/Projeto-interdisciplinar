@@ -1,79 +1,76 @@
-analisa este readme e veja se está bom e se pode fazer algumas melhorias:
-
 <div align="center">
 
-# 📚 Sistema de Empréstimo de Livros
+# 📚 Sistema de Gerenciamento de Biblioteca - ESB
 
-**Sistema desenvolvido para organizar e melhorar o processo de empréstimo, devolução e entrada de livros da biblioteca da Escola São Bernardo (ESB).**
+[![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge&logo=git&logoColor=white)]()
+[![Instituição](https://img.shields.io/badge/Escola-S%C3%A3o%20Bernardo-blue?style=for-the-badge)]()
+[![Licença](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)]()
+
+**Sistema desenvolvido para planejar, organizar e otimizar os processos de empréstimo, devolução e incorporação de novos livros na biblioteca da Escola São Bernardo (ESB).**
 
 </div>
 
 ---
 
-## 📖 Sobre o projeto
+## 📖 Sobre o Projeto
 
-Este projeto tem como objetivo organizar e melhorar o processo de empréstimo de livros da biblioteca da **Escola São Bernardo (ESB)**, principalmente para os alunos dos cursos técnicos de **Enfermagem** e **Farmácia**.
+Este projeto tem como objetivo principal mapear, organizar e modernizar o fluxo de gerenciamento da biblioteca da **Escola São Bernardo (ESB)**, com foco especial no atendimento aos alunos dos cursos técnicos de **Enfermagem** e **Farmácia**.
 
-Atualmente, algumas etapas do processo são realizadas de forma manual. Por isso, a proposta é entender como esse processo funciona, identificar suas principais etapas e pensar em uma forma de torná-lo mais organizado, claro e fácil de acompanhar.
-
----
-
-## 🔎 Como funciona o processo
-
-O processo começa quando um aluno procura um livro na biblioteca e solicita o empréstimo.
-
-### 📚 Empréstimo
-
-1. O aluno procura o livro na biblioteca.
-2. A matrícula do aluno é verificada.
-3. Caso esteja matriculado, recebe uma ficha de retirada.
-4. A ficha deve ser preenchida corretamente.
-5. A situação do livro é verificada.
-6. O empréstimo é realizado.
-7. O comprovante é entregue ao aluno.
-
-### ⏰ Devolução
-
-O prazo inicial para devolução do livro é de **7 dias**.
-
-Caso precise de mais tempo, o aluno pode solicitar uma prorrogação. O processo permite até **3 prorrogações**.
-
-Quando o livro é devolvido:
-
-* 📕 A condição do livro é verificada;
-* ⚠️ Caso esteja danificado, o aluno pode ser solicitado a repor o exemplar;
-* 📅 A data de devolução é conferida;
-* 💰 Caso exista atraso, a multa correspondente é calculada;
-* 📚 Após a conferência, o livro retorna ao estoque.
+Atualmente, grande parte das etapas operacionais é realizada de forma manual. Diante disso, a proposta visa analisar o funcionamento atual, identificar gargalos e desenhar processos mais claros, ágeis e rastreáveis por meio de modelagem de processos (BPMN) e documentação estruturada.
 
 ---
 
-## 📦 Entrada de novos livros
+## ⚙️ Tecnologias e Ferramentas Utilizadas
 
-O processo também considera a entrada de livros por meio de **doações**.
+As seguintes ferramentas e abordagens foram empregadas no desenvolvimento da documentação e modelagem:
 
-Quando uma editora manifesta interesse em realizar uma doação, os títulos disponíveis são catalogados e uma lista é preparada para avaliação.
-
-O processo ocorre da seguinte forma:
-
-1. 📋 Catalogação dos títulos disponíveis;
-2. 📝 Preparação da lista para avaliação;
-3. 📩 Solicitação de autorização;
-4. ⏳ Aguardar aprovação;
-5. 🤝 Contato com os doadores;
-6. 📦 Separação e embalagem dos livros;
-7. 🧾 Emissão da nota de doação;
-8. 🚚 Envio dos livros para a biblioteca;
-9. 🔎 Recebimento e conferência;
-10. 📚 Classificação e catalogação;
-11. 🏷️ Etiquetagem;
-12. 📦 Entrada dos livros no estoque.
+* **Modelagem de Processos:** BPMN (Business Process Model and Notation)
+* **Documentação:** Microsoft Word / Markdown
+* **Controle de Versão:** Git e GitHub
 
 ---
 
-## 🔄 Fluxo do processo
+## 🔎 Como Funciona o Processo
 
-O processo completo pode ser visualizado no diagrama **BPMN** abaixo:
+O fluxo operacional do sistema divide-se em três grandes pilares: **Empréstimo**, **Devolução** e **Entrada de Novos Livros**.
+
+### 📚 1. Empréstimo de Livros
+O fluxo de retirada ocorre nas seguintes etapas:
+1. O aluno pesquisa e localiza o livro desejado na biblioteca.
+2. A equipe realiza a verificação da regularidade da matrícula do aluno.
+3. Estando apto, o aluno recebe e preenche a ficha de retirada.
+4. O atendente valida a integridade e disponibilidade do livro.
+5. O empréstimo é efetivado no sistema/controle e o comprovante é entregue ao aluno.
+
+### ⏰ 2. Devolução de Livros
+* **Prazo padrão:** 7 dias corridos.
+* **Prorrogações:** É permitida a renovação por até **3 vezes**, caso não haja reservas pendentes.
+* **Fluxo de devolução:**
+  * 📕 **Inspeção física:** A condição do livro é verificada.
+  * ⚠️ **Danos:** Caso o exemplar esteja danificado, o aluno poderá ser acionado para reposição.
+  * 📅 **Prazos:** A data de entrega é conferida em relação ao limite estipulado.
+  * 💰 **Multas:** Em caso de atraso, o valor correspondente é calculado.
+  * 📚 **Retorno ao estoque:** Após a conferência final, o livro é disponibilizado novamente para empréstimo.
+
+---
+
+## 📦 Entrada de Novos Livros (Doações)
+
+O fluxo também contempla a ampliação do acervo por meio de doações (parcerias com editoras ou doadores):
+
+1. 📋 Catalogação inicial dos títulos disponibilizados.
+2. 📝 Preparação e envio da lista para avaliação interna.
+3. 📩 Solicitação de autorização formal.
+4. 🤝 Contato com os doadores após a aprovação.
+5. 📦 Separação, embalagem e emissão da nota de doação.
+6. 🚚 Envio, recebimento e conferência física na biblioteca.
+7. 📚 Classificação, catalogação definitiva, etiquetagem e entrada oficial no estoque.
+
+---
+
+## 🔄 Fluxo do Processo (BPMN)
+
+A modelagem completa do fluxo de trabalho pode ser visualizada no diagrama **BPMN** abaixo:
 
 <div align="center">
 
@@ -83,45 +80,42 @@ O processo completo pode ser visualizado no diagrama **BPMN** abaixo:
 
 ---
 
-## 🎯 Objetivos
+## 🎯 Objetivos do Projeto
 
-O projeto busca:
-
-* 📚 Organizar o processo de empréstimo e devolução de livros;
-* 📦 Facilitar o controle dos livros disponíveis;
-* 📝 Registrar os empréstimos realizados;
-* 📅 Controlar os prazos de devolução;
-* 💰 Controlar possíveis atrasos e multas;
-* 📥 Organizar a entrada de livros recebidos por doação;
-* 🔎 Tornar o processo da biblioteca mais claro e fácil de acompanhar.
+* 📚 **Organização:** Padronizar os fluxos de empréstimo, devolução e renovação.
+* 📦 **Controle de Estoque:** Manter inventário e disponibilidade dos livros atualizados.
+* 📝 **Rastreabilidade:** Registrar com precisão histórico de empréstimos e usuários.
+* 📅 **Gestão de Prazos:** Monitorar datas de devolução de forma automatizada/controlada.
+* 💰 **Gestão de Penalidades:** Controlar atrasos e cálculo de multas aplicáveis.
+* 📥 **Expansão de Acervo:** Estruturar a entrada e catalogação de livros recebidos por doação.
 
 ---
 
-## 📋 Documentação
+## 📋 Documentação e Arquivos
 
-Os documentos utilizados durante o desenvolvimento do projeto estão disponíveis neste repositório.
+Todos os artefatos desenvolvidos durante o projeto estão centralizados neste repositório:
 
-* 📄 **[Documentação do projeto](./Escopo.docx)**
-* 🔄 **[Diagrama BPMN](./BPMN.jpeg)**
-
----
-
-## 👥 Equipe
-
-| Integrante       |
-| ---------------- |
-| Enzo Alexandrino |
-| Kauã Vinícius    |
-| João Pedro       |
-| Matheus Duque    |
-| Mauro Sena       |
+* 📄 **[Documentação Completa do Projeto (Escopo)](./Escopo.docx)**
+* 🔄 **[Diagrama BPMN em Alta Resolução](./BPMN.jpeg)**
 
 ---
 
-## 📌 Status
+## 👥 Equipe de Desenvolvimento
+
+| Integrante | Função / Contribuição |
+| :--- | :--- |
+| **Enzo Alexandrino** | Desenvolvedor / Analista |
+| **Kauã Vinícius** | Desenvolvedor / Analista |
+| **João Pedro** | Desenvolvedor / Analista |
+| **Matheus Duque** | Desenvolvedor / Analista |
+| **Mauro Sena** | Desenvolvedor / Analista |
+
+---
+
+## 📌 Status do Projeto
 
 <div align="center">
 
-### 🚧 Projeto em desenvolvimento
+### 🚧 Em Desenvolvimento (Fase de Modelagem e Escopo) 🚧
 
 </div>
