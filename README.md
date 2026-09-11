@@ -114,7 +114,7 @@ A modelagem completa do fluxo de trabalho pode ser visualizada no diagrama **BPM
 
 Todos os artefatos desenvolvidos durante o projeto estão centralizados neste repositório:
 
-* 📄 **[Documentação Completa do Projeto (Escopo)](./Escopo.docx)**
+* 📄 **[Escopo da Documentação](./Escopo.docx)**
 * 🔄 **[Diagrama BPMN em Alta Resolução](./BPMN.jpeg)**
 
 ---
