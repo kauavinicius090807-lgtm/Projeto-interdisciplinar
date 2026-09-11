@@ -93,7 +93,7 @@ A modelagem completa do fluxo de trabalho pode ser visualizada no diagrama **BPM
 
 <div align="center">
 
-![Diagrama BPMN](./BPMN.sav)
+![Diagrama BPMN](./BPMN.jpeg)
 
 </div>
 
@@ -115,7 +115,7 @@ A modelagem completa do fluxo de trabalho pode ser visualizada no diagrama **BPM
 Todos os artefatos desenvolvidos durante o projeto estão centralizados neste repositório:
 
 * 📄 **[Documentação Completa do Projeto (Escopo)](./Escopo.docx)**
-* 🔄 **[Diagrama BPMN em Alta Resolução](./BPMN.sav)**
+* 🔄 **[Diagrama BPMN em Alta Resolução](./BPMN.jpeg)**
 
 ---
 
